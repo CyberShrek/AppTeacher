@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AppTeacher</title>
+</head>
+<body>
+    <form>
+        <label>
+            Выберите приложение для обучения
+            <select onchange="this.form.action = '/appteacher/app/' + value">
+                <option disabled selected value> -- Выберите приложение -- </option>
+                <option value="demo">Демо</option>
+                <option>Не существует</option>
+                <option>Не существует</option>
+                <option>Не существует</option>
+                <option>Не существует</option>
+            </select>
+        </label>
+
+        <label>
+            <input type="submit" value="Подтвердить"/>
+        </label>
+    </form>
+</body>
+
+<script>
+
+    function updateForm(){
+
+    }
+
+</script>
+
+</html>
